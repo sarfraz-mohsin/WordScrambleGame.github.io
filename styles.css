@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    width: 300px;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+header{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    font-style: italic;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.word{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 7px;
+}
+
+.hint{
+    font-size: 15px;
+    margin: 20px 0px 0px 0px;
+    margin-top: 7px;
+}
+
+.time{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.input-value{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+input{
+    padding: 7px;
+    margin: 20px 0px 0px 0px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: black;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.refresh, .check{
+    width: 50%;
+    margin-right: 2px;
+    padding: 7px 0px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 4px;
+}
+
+.check{
+    margin-left: 2px;
+}
+
